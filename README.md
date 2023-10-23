@@ -5,9 +5,9 @@
 
 ### #Explicando os métodos
 
-dentro do **objeto** `editText` existe o `addTextChangedListener()` que recebe`new TextWatcher(){}` como parâmetro. 
+dentro do **objeto** `editText`, existe o `addTextChangedListener()` que recebe `new TextWatcher(){}` como parâmetro. 
 
- - A `TextWatcher(){}` é uma classe abstrata. Quando invocada pede 3 métodos para implementação, sendo eles:
+ - A `TextWatcher(){}` é uma interface que quando invocada, pede 3 métodos para implementação, sendo eles:
 > 
 1. `void beforeTextChanged(CharSequence var1, int var2, int var3, int var4);`
 2. `void onTextChanged(CharSequence var1, int var2, int var3, int var4);`
